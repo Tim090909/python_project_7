@@ -42,3 +42,5 @@ def input_from_file_pandas(filename):
         return text
     except FileNotFoundError:
         return "File not found."
+    except ImportError:
+        print("Pandas library not available. Install it using 'pip install pandas'.")

@@ -14,7 +14,7 @@ def main():
     output_to_console(file_builtin_text)
     output_to_console(file_pandas_text)
 
-    output_to_file_builtin("data/output_builtin.txt", console_text + "\n" + file_builtin_text + "\n" + file_pandas_text)
+    output_to_file_builtin("data/output_file.txt", console_text + "\n" + file_builtin_text + "\n" + file_pandas_text)
 
 
 if __name__ == "__main__":

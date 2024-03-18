@@ -1,0 +1,4 @@
+Hello it is console input
+Hello
+It is text
+Hello It is text
